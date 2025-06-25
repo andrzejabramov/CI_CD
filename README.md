@@ -28,4 +28,5 @@ root@annika:~/pr_booking#
 5. Заходим в репо GitLab - settings - CI/CD - RUNNERS:
 ![GitLab_repo.png](https://github.com/andrzejabramov/CI_CD/blob/master/images/GitLab_repo.png)  
 6. Выключаем предустановленные runners  GitLab (будем регистрировать свой):  
-![OffRunnersGitLab.png]()
+![OffRunnersGitLab.png](https://github.com/andrzejabramov/CI_CD/blob/master/images/OffRunnersGitLab.png)  
+7. 
