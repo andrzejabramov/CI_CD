@@ -31,3 +31,19 @@ root@annika:~/pr_booking#
 ![OffRunnersGitLab.png](https://github.com/andrzejabramov/CI_CD/blob/master/images/OffRunnersGitLab.png)  
 7. Жмем Create project runner
 ![OffRunnersGitLab.png](https://github.com/andrzejabramov/CI_CD/blob/master/images/CreateRunner.png)
+8. Выбираем Linux
+9. В терминале на сервере вводим команду для регистрации runner:
+```commandline
+docker run --rm -it \
+    -v /srv/gitlab-runner/config:/etc/gitlab-runner \
+    gitlab/gitlab-runner:alpine register
+```
+10. На предложение указать URL: 
+https://gitlab.com/
+11. На запрос токена вставляем токен, выданный GitLab
+12. На предложение ввести Имя runner - указываем  
+13. Далее выбираем executor:
+docker
+14. Docker image указываем докер в докере:
+ docker:dind
+15. 
