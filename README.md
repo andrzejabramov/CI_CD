@@ -25,4 +25,4 @@ root@annika:~/pr_booking# docker run -d --name gitlab-runner --restart always \
 e34aaa922ffbabd20a91c654d9070b67799841e5af97b22174a97d0a47797d81
 root@annika:~/pr_booking#
 ```
-5. 
+5. Заходим в репо GitLab - settings - CI/CD - RUNNERS:
