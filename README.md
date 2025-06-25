@@ -30,3 +30,4 @@ root@annika:~/pr_booking#
 6. Выключаем предустановленные runners  GitLab (будем регистрировать свой):  
 ![OffRunnersGitLab.png](https://github.com/andrzejabramov/CI_CD/blob/master/images/OffRunnersGitLab.png)  
 7. Жмем Create project runner
+![OffRunnersGitLab.png](https://github.com/andrzejabramov/CI_CD/blob/master/images/CreateRunner.png)
