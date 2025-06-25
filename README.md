@@ -46,4 +46,12 @@ https://gitlab.com/
 docker
 14. Docker image указываем докер в докере:
  docker:dind
-15. 
+15. Заходим в волюм докера runner (создан при первом создании runner):
+cd /srv/gitlab-runner/config  
+16. Здесь через nano или vim открываем файл config.toml  
+17. Находим строку внизу:
+volums = ["/cache""]  
+и меняем ее на:  
+volumes = ["/var/run/docker.sock:/var/run/docker.sock", "/cache"]
+Чтобы выйти с сохранением: esc - wq! - enter
+18. 
