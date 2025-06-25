@@ -54,4 +54,6 @@ volums = ["/cache""]
 и меняем ее на:  
 volumes = ["/var/run/docker.sock:/var/run/docker.sock", "/cache"]
 Чтобы выйти с сохранением: esc - wq! - enter
-18. 
+18. В GitLab видим, что runner зарегистрирован:
+![RunnerRegistered.png](https://github.com/andrzejabramov/CI_CD/blob/master/images/RunnerRegistered.png)  
+19. 
