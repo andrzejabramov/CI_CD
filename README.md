@@ -58,3 +58,5 @@ volumes = ["/var/run/docker.sock:/var/run/docker.sock", "/cache"]
 ![RunnerRegistered.png](https://github.com/andrzejabramov/CI_CD/blob/master/images/RunnerRegistered.png)  
 19. В меню находим Build - runner:
 ![BuildRunners.png](https://github.com/andrzejabramov/CI_CD/blob/master/images/BuildPipeline.png)
+20. На открывшейся странице выбираем: Try test pipline:
+![TestPipelineGitLab](https://github.com/andrzejabramov/CI_CD/blob/master/images/TestPipelineGitLab.png)
