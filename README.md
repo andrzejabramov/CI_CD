@@ -62,4 +62,6 @@ volumes = ["/var/run/docker.sock:/var/run/docker.sock", "/cache"]
 ![TestPipelineGitLab](https://github.com/andrzejabramov/CI_CD/blob/master/images/TestPipelineGitLab.png)
 21. Подредактируем его, удалив комменты, чтобы не мешали, и запустим commit:
 ![RedactorPipeline.png](https://github.com/andrzejabramov/CI_CD/blob/master/images/RedactorPipeline.png)
-22. Результат:
+22. В результате в трех стадиях (stages) начали работать 4 jobs:
+![Stages_Jobs.png](https://github.com/andrzejabramov/CI_CD/blob/master/images/Stages_Jobs.png)
+23. 
