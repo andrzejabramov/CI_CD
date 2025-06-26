@@ -58,5 +58,8 @@ volumes = ["/var/run/docker.sock:/var/run/docker.sock", "/cache"]
 ![RunnerRegistered.png](https://github.com/andrzejabramov/CI_CD/blob/master/images/RunnerRegistered.png)  
 19. В меню находим Build - runner:
 ![BuildRunners.png](https://github.com/andrzejabramov/CI_CD/blob/master/images/BuildPipeline.png)
-20. На открывшейся странице выбираем: Try test pipline:
+20. На открывшейся странице выбираем: Try test pipline. Это тестовый pypeline GitLab, который мы возьмем за основу
 ![TestPipelineGitLab](https://github.com/andrzejabramov/CI_CD/blob/master/images/TestPipelineGitLab.png)
+21. Подредактируем его, удалив комменты, чтобы не мешали, и запустим commit:
+![RedactorPipeline.png](https://github.com/andrzejabramov/CI_CD/blob/master/images/RedactorPipeline.png)
+22. Результат:
